@@ -26,14 +26,18 @@ p {
 
 #centeredImage{
     position: absolute;
+    height: 60%;
+    width: 69%;
     margin: auto;
     top: 0; 
     bottom: 0; 
     left: 0;
     right: 0;
+    text-align: center;
+
 }
 
-footer {
+/*footer {
   border-top: 1px dotted #999999;
   clear: both;
   padding: 1em 0;
@@ -78,7 +82,6 @@ header nav > ul li {
   list-style-type: none;
   margin-right: 2rem;
   transition: border-color 200ms ease-in-out;
-  /* See: https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions */
 }
 
 header nav > ul li:hover, header nav > ul li.active {
@@ -95,5 +98,5 @@ header nav a, header nav a:visited {
   text-decoration: none;
   color: #333;
   transition: color 200ms ease-in-out;
-}
+}*/
 
