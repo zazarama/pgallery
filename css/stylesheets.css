@@ -1,0 +1,54 @@
+
+body {
+  background-color: #c4dce1; /* change background color */
+  text-align: center;
+  color: #000;  /* change font color */
+  line-height: 36px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body,html {
+  height: 100%;
+
+}
+a, a:active, a:visited {
+  color: #0066CC;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+  letter-spacing: 2px; /* change */
+}
+
+h1 {
+  font-size: 36px; /* change */
+  line-height: 36px;
+  margin: 1.6875rem 0;
+}
+
+#container {
+  background-image: url("../img/cement.jpg"); /* change */
+  min-height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 24px;
+}
+
+#centeredImage {
+    position: absolute;
+    height: 60%;
+    width: 69%;
+    margin: auto;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
