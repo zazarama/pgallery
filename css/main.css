@@ -2,20 +2,21 @@
   box-sizing: border-box;
 }
 body {
-  color: #333333; 
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  background-color: #c4dce1;              /*change your Bkg color*/
-
+  color: #333333;   
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #c4dce1;                      /*change your Bkg color*/
 }
 
 a, a:active, a:visited {
-  color: #0066CC; 
+  color: #0066CC;
 }
+
 .content {
   margin: 0 auto;
   min-width: 480px;
   padding-left: 20px;
 }
+
 
 footer {
   border-top: 1px dotted #999999;
@@ -24,21 +25,18 @@ footer {
 }
 
 footer p {
-  font-size: 24px; /*font size in footer*/
+  font-size: 18px;                 /*font size in footer*/
   padding: 0;
   margin: 0;
 }
 
 header {
   background: #C8C1B7;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
-  background-size: cover;
   border-bottom: 1px solid #999999;
-  height: 120px;
+  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  height: 60px;
   position: relative;
   width: 100%;
-  overflow-x: auto;
-  overflow: hidden;
 }
 
 header h1 {
@@ -46,7 +44,6 @@ header h1 {
   font-size: 36px;
   font-weight: 300;
   margin: 0;
-
 }
 
 header h1 a, header h1 a:visited, header h1 a:active {
@@ -59,10 +56,10 @@ header nav ul {
 }
 
 header nav > ul li {
+  border-bottom: 3px solid white;
   height: 100%;
   float: left;
-  font-weight: 300;
-  font-size: 36px;            /* Font size on banner for menu buttons only*/
+  font-weight: 600;
   list-style-type: none;
   margin-right: 2rem;
   transition: border-color 200ms ease-in-out;
@@ -70,7 +67,7 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;                      /*change your body color*/
+  border-bottom-color: #0066CC;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
@@ -81,10 +78,14 @@ header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #C8C1B7;                         /*changes banner text color*/
+  color: #000000;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
+.gallery {
+  margin: 0;
+  padding: 0;
+}
 
 .gallery li {
   background-color: #333333;
