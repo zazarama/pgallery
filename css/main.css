@@ -4,7 +4,7 @@
 body {
   color: #333333;   
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #c4dce1;                      /*change your Bkg color*/
+  background-color: #FF99CC;                      /*change your Bkg color*/
 }
 
 a, a:active, a:visited {
@@ -33,7 +33,7 @@ footer p {
 header {
   background: #C8C1B7;
   border-bottom: 1px solid #999999;
-  background-image: url("../img/gallerybanner.jpg"); /*change your banner image*/
+  background-image: url("../img/banner.jpg"); /*change your banner image*/
   height: 60px;
   position: relative;
   width: 100%;
@@ -67,18 +67,18 @@ header nav > ul li {
 }
 
 header nav > ul li:hover, header nav > ul li.active {
-  border-bottom-color: #0066CC;
+  border-bottom-color: #FF00FF;
 }
 
 header nav > ul li:hover a, header nav > ul li.active a {
-  color: #0066CC;
+  color: #FF00FF;
 }
 
 header nav a, header nav a:visited {
   display: block;
   line-height: 60px;
   text-decoration: none;
-  color: #000000;                         /*changes banner text color*/
+  color: #FF00FF;                         /*changes banner text color*/
   transition: color 200ms ease-in-out;
 }
 
@@ -88,7 +88,7 @@ header nav a, header nav a:visited {
 }
 
 .gallery li {
-  background-color: #333333;
+  background-color: #787878;
   border: 1px solid #999999;
   border-radius: 2px;
   float: left;
